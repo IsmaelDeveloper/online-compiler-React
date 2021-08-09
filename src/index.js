@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Compiler from './Compiler/Compiler';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-fontawesome'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Compiler> </Compiler>
   </React.StrictMode>,
   document.getElementById('root')
 );
